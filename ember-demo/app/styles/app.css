@@ -1,0 +1,240 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+.unregistered-only, .registered-only {
+  display: none; }
+
+body.registered a.registered-only, body.registered abbr.registered-only, body.registered acronym.registered-only, body.registered audio.registered-only, body.registered b.registered-only, body.registered basefont.registered-only, body.registered bdo.registered-only, body.registered big.registered-only, body.registered br.registered-only, body.registered canvas.registered-only, body.registered cite.registered-only, body.registered code.registered-only, body.registered command.registered-only, body.registered datalist.registered-only, body.registered dfn.registered-only, body.registered em.registered-only, body.registered embed.registered-only, body.registered font.registered-only, body.registered i.registered-only, body.registered img.registered-only, body.registered input.registered-only, body.registered keygen.registered-only, body.registered kbd.registered-only, body.registered label.registered-only, body.registered mark.registered-only, body.registered meter.registered-only, body.registered output.registered-only, body.registered progress.registered-only, body.registered q.registered-only, body.registered rp.registered-only, body.registered rt.registered-only, body.registered ruby.registered-only, body.registered s.registered-only, body.registered samp.registered-only, body.registered select.registered-only, body.registered small.registered-only, body.registered span.registered-only, body.registered strike.registered-only, body.registered strong.registered-only, body.registered sub.registered-only, body.registered sup.registered-only, body.registered textarea.registered-only, body.registered time.registered-only, body.registered tt.registered-only, body.registered u.registered-only, body.registered var.registered-only, body.registered video.registered-only, body.registered wbr.registered-only {
+  display: inline; }
+body.registered address.registered-only, body.registered article.registered-only, body.registered aside.registered-only, body.registered blockquote.registered-only, body.registered center.registered-only, body.registered dir.registered-only, body.registered div.registered-only, body.registered dd.registered-only, body.registered details.registered-only, body.registered dl.registered-only, body.registered dt.registered-only, body.registered fieldset.registered-only, body.registered figcaption.registered-only, body.registered figure.registered-only, body.registered form.registered-only, body.registered footer.registered-only, body.registered frameset.registered-only, body.registered h1.registered-only, body.registered h2.registered-only, body.registered h3.registered-only, body.registered h4.registered-only, body.registered h5.registered-only, body.registered h6.registered-only, body.registered hr.registered-only, body.registered header.registered-only, body.registered hgroup.registered-only, body.registered isindex.registered-only, body.registered main.registered-only, body.registered menu.registered-only, body.registered nav.registered-only, body.registered noframes.registered-only, body.registered noscript.registered-only, body.registered ol.registered-only, body.registered p.registered-only, body.registered pre.registered-only, body.registered section.registered-only, body.registered summary.registered-only, body.registered ul.registered-only {
+  display: block; }
+
+body.unregistered a.unregistered-only, body.unregistered abbr.unregistered-only, body.unregistered acronym.unregistered-only, body.unregistered audio.unregistered-only, body.unregistered b.unregistered-only, body.unregistered basefont.unregistered-only, body.unregistered bdo.unregistered-only, body.unregistered big.unregistered-only, body.unregistered br.unregistered-only, body.unregistered canvas.unregistered-only, body.unregistered cite.unregistered-only, body.unregistered code.unregistered-only, body.unregistered command.unregistered-only, body.unregistered datalist.unregistered-only, body.unregistered dfn.unregistered-only, body.unregistered em.unregistered-only, body.unregistered embed.unregistered-only, body.unregistered font.unregistered-only, body.unregistered i.unregistered-only, body.unregistered img.unregistered-only, body.unregistered input.unregistered-only, body.unregistered keygen.unregistered-only, body.unregistered kbd.unregistered-only, body.unregistered label.unregistered-only, body.unregistered mark.unregistered-only, body.unregistered meter.unregistered-only, body.unregistered output.unregistered-only, body.unregistered progress.unregistered-only, body.unregistered q.unregistered-only, body.unregistered rp.unregistered-only, body.unregistered rt.unregistered-only, body.unregistered ruby.unregistered-only, body.unregistered s.unregistered-only, body.unregistered samp.unregistered-only, body.unregistered select.unregistered-only, body.unregistered small.unregistered-only, body.unregistered span.unregistered-only, body.unregistered strike.unregistered-only, body.unregistered strong.unregistered-only, body.unregistered sub.unregistered-only, body.unregistered sup.unregistered-only, body.unregistered textarea.unregistered-only, body.unregistered time.unregistered-only, body.unregistered tt.unregistered-only, body.unregistered u.unregistered-only, body.unregistered var.unregistered-only, body.unregistered video.unregistered-only, body.unregistered wbr.unregistered-only {
+  display: inline; }
+body.unregistered address.unregistered-only, body.unregistered article.unregistered-only, body.unregistered aside.unregistered-only, body.unregistered blockquote.unregistered-only, body.unregistered center.unregistered-only, body.unregistered dir.unregistered-only, body.unregistered div.unregistered-only, body.unregistered dd.unregistered-only, body.unregistered details.unregistered-only, body.unregistered dl.unregistered-only, body.unregistered dt.unregistered-only, body.unregistered fieldset.unregistered-only, body.unregistered figcaption.unregistered-only, body.unregistered figure.unregistered-only, body.unregistered form.unregistered-only, body.unregistered footer.unregistered-only, body.unregistered frameset.unregistered-only, body.unregistered h1.unregistered-only, body.unregistered h2.unregistered-only, body.unregistered h3.unregistered-only, body.unregistered h4.unregistered-only, body.unregistered h5.unregistered-only, body.unregistered h6.unregistered-only, body.unregistered hr.unregistered-only, body.unregistered header.unregistered-only, body.unregistered hgroup.unregistered-only, body.unregistered isindex.unregistered-only, body.unregistered main.unregistered-only, body.unregistered menu.unregistered-only, body.unregistered nav.unregistered-only, body.unregistered noframes.unregistered-only, body.unregistered noscript.unregistered-only, body.unregistered ol.unregistered-only, body.unregistered p.unregistered-only, body.unregistered pre.unregistered-only, body.unregistered section.unregistered-only, body.unregistered summary.unregistered-only, body.unregistered ul.unregistered-only {
+  display: block; }
+
+
+/* STYLING */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+
+  width: 100px;
+  height: 50px;
+
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+
+  margin-left: -50px;
+  margin-top: -25px;
+
+  @include border-radius(10px);
+  text-align: center;
+  line-height: 50px;
+}
+
+aside {
+  float: left;
+  background-color: #f7f7f7;
+  width: 180px;
+  height: 430px;
+  border: 1px solid #ccc;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li {
+  padding-bottom: 10px;
+}
+
+aside h2 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-shadow: 1px 1px 0px #eee;
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+aside a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+aside a.active {
+  background-color: #eee;
+}
+
+aside a:hover {
+  background-color: #eee;
+  border-bottom: 0;
+}
+
+span.count {
+  float: right;
+  color: #505f71;
+  padding: 0.2em 0.2em;
+  @include border-radius(40%);
+  font-size: 1.1em;
+  position: relative;
+  top: -3px;
+}
+
+section.main {
+  height: 430px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 180px;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.index {
+  padding-top: 5em;
+  text-align: center;
+  height: 100%;
+}
+
+table {
+  width: 100%;
+  border-bottom: 1px solid #999;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5em;
+}
+
+th {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+td a {
+  text-decoration: none;
+  color: #333;
+}
+
+tr.active {
+  @include background(linear-gradient(to bottom, #7db9e8, #267dc9));
+  color: white;
+  text-shadow: 1px 1px 0px #666;
+}
+
+.mailbox-index {
+  padding-top: 5em;
+  text-align: center;
+  color: #eee;
+  font-style: italic;
+}
+
+.mail {
+  padding: 1em;
+}
+
+dl {
+  width: 100%;
+  border-bottom: 1px solid #333;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 60px;
+}
+
+dd {
+  margin-bottom: 0.5em;
+}
+
+.url {
+  font-family: sans-serif;
+  padding: 0 0 2em 0.4em;
+  width: 100%;
+  height: 25px;
+  font-family: 'Maven Pro';
+  font-weight: bold;
+  text-transform: uppercase;
+}
