@@ -1,4 +1,4 @@
-# WHY (AND WHEN) EMBER.JS?
+# WHY EMBER.JS?
 #### @benzittlau
 #### http://benzittlau.com
 #### http://springlaunched.com
@@ -48,9 +48,18 @@ Created by [Yehuda Katz](http://yehudakatz.com/)
 
 
 # Cool things you get for free
+[Ember CLI](http://ember-cli.com/)
+
 [Ember Data](https://github.com/emberjs/data)
 
 [Ember Inspector](https://github.com/emberjs/ember-inspector)
+
+
+
+#  DEMO TIME!
+Let's take a look
+
+[Demo](http://localhost.dev:4200)
 
 
 
@@ -61,13 +70,23 @@ Created by [Yehuda Katz](http://yehudakatz.com/)
 
 [Twitch](http://www.twitch.tv/directory)
 
-[Discourse](http://try.discourse.org/)
-
 Apple Music
 
-Showbie  <!-- .element: class="fragment" data-fragment-index="1" -->
+[Showbie](https://www.showbie.com/)  <!-- .element: class="fragment" data-fragment-index="1" -->
 
-Jobber  <!-- .element: class="fragment" data-fragment-index="1" -->
+[Jobber](getjobber.com) <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 
+# The Good
+* Open RFC's
+* Highly stable
+* Semver compliance
+* The best error and deprecations messages I've ever seen
+* Ember Data adapters
+
+
+
+# The Bad
+* The docs are usually out of date
+* The examples are usually out of date
