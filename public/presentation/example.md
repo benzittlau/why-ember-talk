@@ -1,4 +1,4 @@
-# WHY EMBER.JS?
+## WHY EMBER.JS?
 #### @benzittlau
 #### http://benzittlau.com
 #### http://springlaunched.com
